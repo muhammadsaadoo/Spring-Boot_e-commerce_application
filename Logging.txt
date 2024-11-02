@@ -1,0 +1,59 @@
+LOGGING
+
+let your app running on server but you see an UNEXPECTED behaviour  in API
+but on local machine it works good
+so we create logs to find outv the solution
+ it us used to truble shoot tha aopplication
+spring loging framework
+logback    ostly used
+log4j2     advance
+java util logging(jul)   basic
+
+logback
+default configurations are added in spring boot libraries not visible in project source
+if you want to create a custom loging ypu can use logback.xml in resources directory
+if spring find custom loginf it will run only custom looging insted of deault logging
+
+
+loging  Levels
+these run level viise
+if i set yml properties ERROR so only error pring
+if i set warn warn and error pring
+if i set trace then all prints
+trace
+debug
+info
+warn
+error
+
+by defaukt loging is enabled for
+info
+warn
+error
+
+if you want to log degug and trace you have to set properties.yml
+
+
+working
+ceate instance of  slf4 logging classs
+
+Annotaions@@@
+@slf4j
+@log4j2
+ automatoically inject logger insances into classes
+
+
+same can be achieve by xml
+
+xml is better than yml
+seperate of concerns
+
+
+root tag configuration in which appender and logger configuration will be written
+appender means where the logs will print
+for example   console appender
+
+
+
+
+

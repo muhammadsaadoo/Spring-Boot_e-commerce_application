@@ -1,0 +1,9 @@
+21:53:10.930 40690 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:53:10.935 40695 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+21:53:10.938 40698 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+21:53:11.917 41677 ERROR c.e.e.Services.CategoryService - error  is occurred for tech:
+21:53:11.918 41678 INFO  c.e.e.Services.CategoryService - error is calling
+21:53:11.918 41678 WARN  c.e.e.Services.CategoryService - warn is calling
+21:53:58.607 88367 ERROR c.e.e.Services.CategoryService - error  is occurred for tech:
+21:53:58.607 88367 INFO  c.e.e.Services.CategoryService - error is calling
+21:53:58.608 88368 WARN  c.e.e.Services.CategoryService - warn is calling

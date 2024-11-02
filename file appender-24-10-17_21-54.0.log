@@ -1,0 +1,3 @@
+21:54:13.691 103451 ERROR c.e.e.Services.CategoryService - error  is occurred for tech:
+21:54:13.694 103454 INFO  c.e.e.Services.CategoryService - error is calling
+21:54:13.694 103454 WARN  c.e.e.Services.CategoryService - warn is calling

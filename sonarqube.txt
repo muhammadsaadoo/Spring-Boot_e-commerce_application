@@ -1,0 +1,9 @@
+sonarQube
+it is used to check the code quality
+plugin sonar mavin plugin
+
+terminal run command
+.\mvnw clean install sonar:sonar
+tha app will create in sonar app
+
+
