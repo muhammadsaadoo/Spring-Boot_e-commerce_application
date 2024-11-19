@@ -40,21 +40,23 @@ public class AdminUserService implements IAdminService {
         }
 
     }
-    @Scheduled(cron = "0 0/2 * * * ?")
+//    @Scheduled(cron = "0 0/2 * * * ?")
     public void sendEmails(){
         String subject="cart products";
         String body="you cart some produvts to buy";
       try{
         List<String> emails= usersWhoCartProducts();
         for (String email : emails) {
-            boolean isSend=emailService.sendEnail(email,subject,body);
-            if(isSend){
-                log.error("email  sent on : {}", email);
+            try {
+                emailService.sendEnail(email, subject, body);
+                log.info("email  sent on : {}", email);
+            } catch (Exception e) {
+                log.error("emial not sent to : {}",email);
+                throw new RuntimeException(e);
+            }
 
-            }
-            else{
-                log.info("emial not sent to : {}",email);
-            }
+
+
 
              // Assuming sendEmailToUser is a method that sends an email
         }

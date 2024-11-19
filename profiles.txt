@@ -15,7 +15,7 @@ command for creating jar on terminal      .\mvnw clean package
 om that case no jar is build because we create tests
 so we give the command to tell the mode
 .\mvnw clean package -D spring.profiles.active=dev
-java -jar .\e-commerce-dashboard-0.0.1-SNAPSHOT.jar -- spring.profiles.active=dev
+java -jar .\e-commerce-dashboard-0.0.1-SNAPSHOT.jar --spring.profiles.active=dev
 java -jar target/e-commerce-dashboard-0.0.1-SNAPSHOT.jar.original --spring.profiles.active=dev
  error on java versions
  solve to update java 8 to 18

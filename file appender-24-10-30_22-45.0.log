@@ -1,3 +1,0 @@
-22:45:12.961 58491 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-22:45:12.994 58524 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-22:45:12.997 58527 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms

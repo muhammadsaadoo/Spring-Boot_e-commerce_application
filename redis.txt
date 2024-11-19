@@ -1,0 +1,26 @@
+REDIS
+used for inmemory/RAM  cache and also other usege
+let
+we have 1million users
+all user send request to fetch the same kind of api (eg products)
+it results the load on the database because everyt request go to db and take data
+
+so REDIS come
+it is used as a cache and store that api result in the cache with one time computatiokn work
+now all the users get responce from that cache
+
+dependency
+install wsl
+install redis
+through cli
+   set key value
+   get key
+
+NOTE: the value set through CLI not get from spring app
+      the value set through spring app  not get from CLI
+  Becaue serialer and desealizer is not same for CLI and spring
+
+
+so we set serializer and deserializer
+create bean pf both
+
