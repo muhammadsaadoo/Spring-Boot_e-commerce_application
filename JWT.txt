@@ -1,0 +1,25 @@
+JWT
+jason web token
+it is url safe token that carry information between parties(client server)
+it is a string that consist of three parts separated by dots
+eg
+header.payload.signature
+
+header
+   algorithm(SHA256) and type of token(jwt)
+payload
+   data
+signature
+   sign the payload and header with secret key
+
+configuration'
+dependencies
+  jjwt api
+  jjwt jackson
+  jjwt impl
+
+
+
+
+
+
